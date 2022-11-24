@@ -1,3 +1,3 @@
 # IntroToCS
 ## 1118
-- [Lab](./HTML_Lab2/index.html)
+- [Lab](https://huang-kyle.github.io/IntroToCS/HTML_Lab2/index.html)
