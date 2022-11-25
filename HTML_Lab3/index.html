@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Personal Website</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">
+                    <strong>About -- 109204035</strong>
+                </th>
+            </tr>
+        </thead>
+        <tfoot align="left">
+            <tr>
+                <th colspan="3">
+                    <form method="post">
+                        <input type="submit" value="提交">
+                        <input type="reset" value="重設">
+                    </form>
+                </th>
+            </tr>
+        </tfoot>
+        <tbody align="left">
+            <tr>
+                <th rowspan="3">
+                    <img src="https://upload.wikimedia.org/wikipedia/zh/3/33/National_Chengchi_University_logo.svg" alt="政大校徽"><br>
+                    <small>personal photo</small>
+                </th>
+                <td colspan="2">
+                    <label for="name">Name: 黃楷捷
+                    </label><br>Gender: Male
+                </td>
+            </tr>
+            <tr>
+                <td>County: Taipei
+                </td>
+                <td>
+                    <label for="birthday"><em>Birthday: 12/25</em></label>
+                </td>
+            </tr>
+            <tr class="extra">
+                <td colspan="2">
+                    <label>E-mail: 109204035@nccu.edu.tw</label>
+                </td>
+            </tr>
+            <tr id="title">
+                <th >Hobby</th>
+                <td colspan="2">
+                    *Movie *Game
+                </td>
+            </tr>
+            <tr>
+                <th>Skill</th>
+                <td colspan="2">
+                    *R *Python *Java
+                </td>
+            </tr>
+            <tr>
+                <th>Say something</th>
+                <td colspan="2">
+                    <p>This course is fun.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <input type="button" onclick="javascript:location.href='./page2.html'" value="第二頁"></input>
+        <input type="button" onclick="javascript:location.href='./page3.html'" value="第三頁"></input>
+    </p>
+</body>
+
+</html>

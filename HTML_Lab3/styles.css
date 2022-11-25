@@ -1,0 +1,63 @@
+body{
+    background-image: url('Möbiusband.webp');
+    background-repeat: repeat space;
+    background-position: center;
+    background-color: lightyellow;
+}
+
+h1 {
+    font-family: tahoma, helvetica, sans-serif;
+    color: black;
+    background-color: teal;
+}
+
+h1 em {
+    color: darkgoldenrod;
+}
+
+label {
+    color: rebeccapurple;
+}
+
+label em {
+    color: navy;
+}
+
+p {
+    font-size: 12pt;
+    font-family: arial, sans-serif;
+    background-color: yellow;
+}
+
+em {
+    font-weight: bold;
+    color: green;
+}
+
+.info {
+    background-color: tomato;
+}
+
+span {
+    color: lawngreen;
+    border: 1px solid black;
+}
+
+.extra span {
+    color: inherit;
+}
+
+td {
+    color: seagreen;
+    border: 1px solid black;
+}
+
+.extra td {
+    color: inherit;
+    background-color: lightcoral;
+}
+
+#title {
+    background-color: lightblue;
+    color: purple;
+}
