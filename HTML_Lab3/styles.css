@@ -1,5 +1,5 @@
 body{
-    background-image: url('Möbiusband.webp');
+    background-image: url('./Möbiusband.webp');
     background-repeat: repeat space;
     background-position: center;
     background-color: lightyellow;
