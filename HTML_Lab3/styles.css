@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://raw.githubusercontent.com/Huang-Kyle/IntroToCS/main/HTML_Lab3/Möbiusband.webp');
+    background-image: url("./Möbiusband.webp");
     background-repeat: repeat space;
     background-position: center;
     background-color: lightyellow;
