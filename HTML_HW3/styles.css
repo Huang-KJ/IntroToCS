@@ -1,63 +1,73 @@
-body{
-    background-image: url('./Mobiusband.gif');
-    background-repeat: repeat space;
-    background-position: center;
-    background-color: lightyellow;
+* {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
-h1 {
-    font-family: tahoma, helvetica, sans-serif;
-    color: black;
-    background-color: teal;
+.container {}
+
+.col15 {
+    float: left;
+    width: 15%;
+
 }
 
-h1 em {
-    color: darkgoldenrod;
+.col85 {
+    float: left;
+    width: 85%;
+
+}
+
+
+.col30 {
+    float: left;
+    width: 33.5%;
+
+}
+
+.col70 {
+    float: left;
+    width: 64.5%;
+
+}
+
+.row{
+  width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    float: left;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+textarea {
+    vertical-align: top;
 }
 
 label {
-    color: rebeccapurple;
+    display: inline-block;
+}
+img{
+  max-width: 87.5%;
 }
 
-label em {
-    color: navy;
-}
-
-p {
-    font-size: 12pt;
-    font-family: arial, sans-serif;
-    background-color: yellow;
-}
-
-em {
-    font-weight: bold;
-    color: green;
-}
-
-.info {
-    background-color: tomato;
-}
-
-span {
-    color: lawngreen;
-    border: 1px solid black;
-}
-
-.extra span {
-    color: inherit;
-}
-
-td {
-    color: seagreen;
-    border: 1px solid black;
-}
-
-.extra td {
-    color: inherit;
-    background-color: lightcoral;
-}
-
-#title {
-    background-color: lightblue;
-    color: purple;
+@media screen {
+    .col15, .col85, .col30, .col70 {
+        margin-top: 1%;
+    }
 }
