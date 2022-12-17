@@ -7,3 +7,6 @@
 ## 1125
 - [Lab](https://huang-kyle.github.io/IntroToCS/HTML_Lab3/index.html)
 - [HW](https://huang-kyle.github.io/IntroToCS/HTML_HW3/index.html)
+
+## 1216
+- [Lab](https://huang-kyle.github.io/IntroToCS/JS_Lab1/index.html)
