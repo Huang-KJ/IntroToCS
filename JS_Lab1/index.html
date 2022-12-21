@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+
 <body>
-	
+    <script>
+        var input1;
+    var input2;
+    input1 = window.prompt('Enter input1');
+    input2 = window.prompt('Enter input2');
+    if (input1>input2) {
+    	document.body.style.backgroundColor = "lightblue";
+    	document.write('firstInput>secondInput');
+    } else  if (input2>input1){
+    	document.body.style.backgroundColor = "lightgreen";
+    	document.write('secondInput > firstInput');
+    }else if (input2==input1){
+    	document.body.style.backgroundColor = "lightyellow";
+    	document.write('secondInput == firstInput');
+    }
+    </script>
+    <input type="button" value="show the first input" onclick="alert(input1)">
+    <input type="button" value="show the second input" onclick="alert(input2)">
 </body>
+
 </html>
