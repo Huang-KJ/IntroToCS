@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    var rand=Math.floor((Math.random()*10)+1);
+    var input = window.prompt("Guess a number from 1 to 10");
+    while (rand!=input){
+        input = window.prompt("Guess another number from 1 to 10");
+    }
+    alert("Good guess");
+    </script>
+</body>
+
+</html>
