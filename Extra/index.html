@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+</head>
+
+<body>
+    <div id="block">
+        <label id="input"></label>
+        <p>Index Of is <span id="result1"></span></p>
+        <p>Last Index Of is <span id="result2"></span></p>
+    </div>
+    <script>
+    var input1 = window.prompt("input data");
+    var input2 = window.prompt("input a char to search");
+    var inputdata = "Input data is \"" + input1 + "\"<br/>" + "Input search source is \"" + input2 + "\"";
+    document.getElementById("input").innerHTML = inputdata;
+    var output1 = input1.indexOf(input2);
+    var output2 = input1.lastIndexOf(input2);
+    document.getElementById("result1").innerHTML = output1;
+    document.getElementById("result2").innerHTML = output2;
+    </script>
+</body>
+
+</html>
