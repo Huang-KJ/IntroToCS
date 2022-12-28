@@ -14,4 +14,5 @@
 
 ## 1223
 - [Lab](https://huang-kyle.github.io/IntroToCS/JS_Lab2/index.html)
-- [HW]
+- [HW](https://huang-kyle.github.io/IntroToCS/JS_HW2/index.html)
+- [Extra](https://huang-kyle.github.io/IntroToCS/Extra/index.html)
